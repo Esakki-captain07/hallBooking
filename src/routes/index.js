@@ -6,10 +6,7 @@ const routes = Router()
 
 routes.get('/',(req,res)=>{
     res.send({
-        message:`<div>
-        <h1>Welcome to Hall Booking BackEnd</h1>
-        <p>plece checkout postman collections</p>
-        </div>`
+        message:"Welcome to Hall Booking BackEnd,plece checkout postman collections"
     })
 })
 
